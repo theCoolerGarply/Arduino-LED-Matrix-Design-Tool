@@ -8,9 +8,9 @@ This tool is intended to make designing and displaying images for the WS2812B LE
 1. Download the excel file and Arduino sketch folder.
 2. Move the sketch folder where ever you store your sketches.
 3. To create design an image, open the excel file and edit the text in the grey shaded section of the spread sheet. W for white, R for red, G for green, and B for blue.
-   ![Image Example]()
-4. Copy the text in this cell ![Pattern Cell]() and paste it into the PATTERN constant in the script file ![Pattern Constant]().
+   ![Image Example](Read Me Pictures/Image Example.png)
+4. Copy the text in this cell ![Pattern Cell](Read Me Pictures/Pattern Cell.png) and paste it into the PATTERN constant in the script file ![Pattern Constant](Read Me Pictures/Pattern Constant.png).
 5. Make sure that the LED_PIN constant is set to the data pin number you are using in your setup.
 6. When you run the script after these steps the image you designed should show up on your LED Matrix.
-## Dependecies
+## Dependencies
 - FastLED
